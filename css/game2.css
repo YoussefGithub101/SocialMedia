@@ -1,0 +1,93 @@
+#imgfind{
+
+    float: right;
+    
+}
+
+#navside
+{
+    background-color:#00ACee;
+    width: 50px;
+    height: 250px;
+    position: fixed;
+    top: 200px;
+    border-radius: 30px;
+    left: -50px;
+    
+   
+}
+#io
+{
+  position:absolute;
+  top: 50%;
+  font-size: 30px;
+  left: 105%;
+
+
+}
+#g1
+{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 30px;
+    color: #15202B;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g1:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g2
+{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g2:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g3
+{
+    position: absolute;
+    top: 150px;
+    left: 13px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g3:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g4
+{
+    position: absolute;
+    top: 210px;
+    left: 8px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+#g4:hover
+{
+    color:rgb(248, 240,240);
+}
+.badge{
+    font-size: 1em;
+    padding: 0.5em 
+}

@@ -1,0 +1,183 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+i
+{
+ cursor: pointer;
+}
+
+#Data i
+{
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #00ACee;
+}
+
+.b
+{
+
+
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius:50px ;
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+
+
+#childd
+{
+    width: 900px;
+    /* height: 300px; */
+    background-color: rgb(248, 240, 240);
+    margin-top: 50px;
+    margin-left: 240px;
+    border-radius: 40px;
+    padding: 1px;
+   
+   
+    
+}
+
+#childd p
+{
+    width: 90%;
+    padding-left: 100px;
+    font-family: 'Alkatra', cursive;
+    
+}
+
+
+#childd .no
+{
+
+    padding-bottom: 50px;
+    padding: 40px;
+}
+
+#childd .no i
+{
+
+    color: #00ACee;
+    background-color: white;
+    transition: all 1s;
+    margin: 0px 80px;
+    font-size: 30px;
+       
+}
+#childd .no i:hover
+{
+
+    color: white;
+    background-color: #00ACee;
+ 
+}
+#po
+{
+  
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    color: #00ACee;
+    font-size: 30px;
+
+}
+
+.colorbettween
+{
+    background-color:#15202B;
+}
+
+#navside
+{
+    background-color:#00ACee;
+    width: 50px;
+    height: 250px;
+    position: fixed;
+    top: 200px;
+    border-radius: 30px;
+    left: -50px;
+    
+   
+}
+#io
+{
+  position:absolute;
+  top: 50%;
+  font-size: 30px;
+  left: 105%;
+ 
+
+}
+.colorbettweenn
+{
+    color:#00ACee;
+}
+#g1
+{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 30px;
+    color: #15202B;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g1:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g2
+{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g2:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g3
+{
+    position: absolute;
+    top: 150px;
+    left: 13px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+#g3:hover
+{
+    color:rgb(248, 240, 240);
+    
+}
+#g4
+{
+    position: absolute;
+    top: 210px;
+    left: 8px;
+    font-size: 30px;
+    color: #000b16;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+#g4:hover
+{
+    color:rgb(248, 240, 240);
+    
+}

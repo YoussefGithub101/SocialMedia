@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 10px 200px;
+    background-color: gray;
+}
+main{
+      width: 100%; 
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #F5F5F5;
+}
+.First_contanar{
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   /*  gap: 20%; */
+     
+     
+}
+.pdf_email_tele{
+    /* border:2px solid black; */
+    width: 20%;
+    overflow: auto;
+}
+.second_contanor{
+    align-self: center;
+    display: flex;
+    /* gap: 150px; */
+    padding: 3px 0px;
+    justify-content: space-between;
+}
+.profile_contant{
+    width: 70%;
+    /* border: 1px solid black; */
+}
+.contant{
+    display: flex;
+    align-items: center;
+    padding: 3px 0px;
+    justify-content: space-between;
+    width: 60%;
+    word-wrap: break-word;
+     
+}
+
+.contant :last-child {
+     width: 60%;
+     align-self: auto;
+     align-items: center;
+}
+ 
+ 
+
+ 
+.dd{
+    padding: 10px 0px;
+}
+
+.profile_contant2{
+    display: flex;
+    align-self:center;
+     
+     
+}
+.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 0.75em 0 3em 0; word-wrap: break-word; }
+.job:last-child {
+    border: 0px;
+}
+.columns{
+     width: 70%;
+    column-count: 3;
+    column-gap: 40px;
+    /* list-style-type: none; */
+    line-height: 1.45;
+}
+ 

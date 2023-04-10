@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="alert hide">
+        <p><i class="fa-regular fa-face-frown" ></i></p>
+        <p>Form not Valid</p>
+        <p><i class="fa-solid fa-xmark fa-beat" id="alertI"></i></p>
+    </div>
+    <main class="container">
+        <header>
+            <section>
+                <article>
+                    <h3><i class="fa-solid fa-ghost sin"></i></h3>
+                    <h3 class="sin">Register</h3>
+                </article>
+                <article>
+                    <form action="login.html" method="post">
+                        <label><input id="firstname" class="sin" type="text" placeholder="Please Enter FirstName"></label>
+                        <label><input id="lastname" class="sin" type="text" placeholder="Please Enter LastName"></label><br>
+                        <label><input id="phone" class="sin" type="text" placeholder="Please Enter Phone"><i class="fa-solid fa-check hide" id="correct2"></i></label><br>
+                        <label><input id="email" type="email" class="sin" placeholder="Please Enter Email" name="userName"><i class="fa-solid fa-check hide" id="correct"></i>
+                        </label><br>
+                        <label><input id="password" class="sin" type="password" placeholder="Please Enter Password" name="Password"><i class="fa-regular fa-eye-slash fa-sm" id="showPassword"></i>
+                        </label><br>
+                        <!-- Remember me <input class="sin" type="checkbox" id="checkBox1" class="check"> -->
+                            <span class="clear"></span><br>
+                        <header>
+                            <a href="#" class="btn2 sin"><i class="fa-brands fa-google-plus-g"></i></a> 
+                            <a href="https://www.facebook.com/facebook/?locale=ar_AR" class="btn2 sin"><i class="fa-brands fa-facebook"></i></a> 
+                            <a href="https://www.linkedin.com/feed/" class="btn2 sin"><i class="fa-brands fa-linkedin"></i></a> 
+                            <!-- <a href="#" class="btn2"><i class="fa-brands fa-twitter"></i></a>  -->
+                        </header>
+                        <div>
+                            <button type="submit" class="btn sin" id="btn1" v>Sign up <i class="fa-solid fa-arrow-right fa-sm" ></i></button>
+                        </div>
+                        <p>
+                            have an account ?<a href="login.html">Login</a>
+                        </p>
+                    </form>
+                </article>
+            </section>
+            <section>
+                <!-- <h2>
+                    Hello<br> to sign up
+                </h2> -->
+            </section>
+        </header>
+    </main>
+    <!-- ------------------------ -->
+    </section>
+   <script src="js/mainSignUp.js"></script>
+</body>
+</html>
